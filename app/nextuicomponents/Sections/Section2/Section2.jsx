@@ -4,13 +4,13 @@ import Link from "next/link";
 import Visiting from "../Assets/visting.jpg";
 import Docpng from "../Assets/doc.png";
 import Flyers from "../Assets/flyers.jpg";
-import Projefile from "../Assets/Project File.png"
+import Projefile from "../Assets/Project File1.png"
 export default function Section2() {
   function ReturnServices(props) {
     return (
       <>
         <div className={style.card}>
-          <Image src={props.src} />
+          <Image  src={props.src} />
           <p>{props.quotation}</p>
           <h1>{props.title}</h1>
         </div>
@@ -21,21 +21,14 @@ export default function Section2() {
   return (
     <>
       <div className={style.services}>
-<Link href="https://rzp.io/l/kindlecave">
+     
+
+
       <ReturnServices
           src={Projefile}
           quotation=" ₹6 Per Page"
-          title="FLYERS OR LEAFLETS"
-          
+          title="SCHOOL PROJECT FILE"
           />
-          </Link>
-
-
-      <ReturnServices
-          src={Flyers}
-          quotation=" ₹2 Per Flyer"
-          title="FLYERS OR LEAFLETS"
-        />
 
         <ReturnServices
           src={Visiting}

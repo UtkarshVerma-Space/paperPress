@@ -14,7 +14,13 @@ export default function Home() {
 
 <NextUIProvider>
    <Navbars/>
-   <Section1/>
+   <Section1
+abtstatus="tab"
+
+servicstatus="tab tab-active"
+
+qualstatus="tab"
+/>
    <Section2/>
 
 
