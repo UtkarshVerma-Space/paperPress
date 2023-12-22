@@ -6,15 +6,15 @@ export default function Navbars() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Visiting Card",
-    "Document",
-    "PDF Print",
-    "Notebook",
-    "Marketing Materials ",
-    "Stickers",
-    "Pamphlet and Flyer",
-    "Business Solution",
+    "Price Calculator",
     "Log Out",
+    // "PDF Print",
+    // "Notebook",
+    // "Marketing Materials ",
+    // "Stickers",
+    // "Pamphlet and Flyer",
+    // "Business Solution",
+    // "Log Out",
   ];
 
   return (

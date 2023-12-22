@@ -7,7 +7,7 @@ import {NextUIProvider} from "@nextui-org/react";
 import Navbars from "./nextuicomponents/Navbar/Nav";
 import Section1 from "./nextuicomponents/Sections/Section1/Section1";
 import Section2 from "./nextuicomponents/Sections/Section2/Section2";
-
+import Alert from "./alet/alert";
 
 export default function Home() {
   return (
@@ -22,6 +22,8 @@ servicstatus="tab tab-active"
 qualstatus="tab"
 />
    <Section2/>
+
+   <Alert/>
 
 
 
