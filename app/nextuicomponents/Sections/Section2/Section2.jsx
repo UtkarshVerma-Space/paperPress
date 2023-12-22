@@ -68,7 +68,7 @@ const handleOpen = (size) => {
           
     <ReturnServices
           src={Projefile}
-          quotation=" Rs. 6 Per Page"
+          quotation=" ₹6 Per Page"
           title="SCHOOL PROJECT FILE"
           key={size} 
           onclick={() => handleOpen(size)}
@@ -200,7 +200,7 @@ const handleOpen = (size) => {
 </section>
           </div>
           <div className={style.divpay}>
-            <h1>Rs. 6 / Per Page Print &quot;We Will handle everything from design to print to delivery at doorstep.&quot;</h1>
+            <h1>₹ 6 / Per Page Print &quot;We Will handle everything from design to print to delivery at doorstep.&quot;</h1>
                 
                 <button className={style.pay}>
                 <Link href="https://rzp.io/l/4ISnONfDDX">
@@ -233,13 +233,13 @@ const handleOpen = (size) => {
 
         <ReturnServices
           src={Visiting}
-          quotation=" Rs.2 Per Card"
+          quotation=" ₹2 Per Card"
           title="Visiting Card"
         />
 
         <ReturnServices
           src={Docpng}
-          quotation=" Rs. 0.5 Per Page"
+          quotation=" ₹0.5 Per Page"
           title="Document / Paper Printing"
         />
 
