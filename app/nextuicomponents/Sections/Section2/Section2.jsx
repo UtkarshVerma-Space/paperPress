@@ -145,7 +145,7 @@ const handleOpen = (size) => {
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Pay and Project Designing </h2>
-            <p class="leading-relaxed">After payment we will call you for project reference and draft, and we'll work our creative magic.</p>
+            <p class="leading-relaxed">After payment we will call you for project reference and draft, and we will work our creative magic.</p>
           </div>
         </div>
         <div class="flex relative pb-12">
