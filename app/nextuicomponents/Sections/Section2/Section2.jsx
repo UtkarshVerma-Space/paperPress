@@ -87,7 +87,7 @@ const handleOpen = (size) => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">School Project File Print "A4"</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">School Project File Print &quot;A4&quot;</ModalHeader>
               <ModalBody>
               <Image alt="hkj"className={style.Modalmage}  src={Projefile} />
 
