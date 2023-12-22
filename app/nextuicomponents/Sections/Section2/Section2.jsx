@@ -200,7 +200,7 @@ const handleOpen = (size) => {
 </section>
           </div>
           <div className={style.divpay}>
-            <h1>Rs. 6 / Per Page Print "We Will handle everything from design to print to delivery at doorstep."</h1>
+            <h1>Rs. 6 / Per Page Print &quot;We Will handle everything from design to print to delivery at doorstep.&quot;</h1>
                 
                 <button className={style.pay}>
                 <Link href="https://rzp.io/l/4ISnONfDDX">
