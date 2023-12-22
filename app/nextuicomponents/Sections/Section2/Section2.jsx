@@ -68,7 +68,7 @@ const handleOpen = (size) => {
           
     <ReturnServices
           src={Projefile}
-          quotation=" ₹6 Per Page"
+          quotation=" ₹7.1 Per Page"
           title="SCHOOL PROJECT FILE"
           key={size} 
           onclick={() => handleOpen(size)}
