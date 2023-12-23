@@ -94,10 +94,10 @@ const handleOpen = (size) => {
                 <p> 
                 <h1 style={{fontSize:"25px", color:"white", backgroundColor:"#0e131a", textAlign:"center", borderRadius:"12px 12px 12px 12px", padding:"10px",fontWeight:"300"}}>
                   Project File Design and Print
-                  <p style={{fontSize:"15px", textAlign:"justify", marginTop:"10px", padding:"10px",color:"white", fontWeight:"300"}}>After making the payment, our team will reach out to you. They will request the project file in PDF format. If you already have one, great! If not, no worries! We can design one for you. Once the design is ready, we will ensure it's of the highest quality. Finally, we'll deliver your school project file straight to your home. This way, you can focus on your studies while we take care of bringing your project to life.</p>
+                  <p style={{fontSize:"15px", textAlign:"justify", marginTop:"10px", padding:"10px",color:"white", fontWeight:"300"}}>After making the payment, our team will reach out to you. They will request the project file in PDF format. If you already have one, great! If not, no worries! We can design one for you. Once the design is ready we will ensure it&apos;s of the highest quality. Finally, we&apos;ll deliver your school project file straight to your home. This way you can focus on your studies while we take care of bringing your project to life.</p>
+
                   </h1>
                 </p>
-
 <div className={style.statsu}>
 
                 <section class="text-gray-600 body-font">
