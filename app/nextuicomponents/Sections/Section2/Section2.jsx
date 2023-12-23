@@ -92,7 +92,10 @@ const handleOpen = (size) => {
               <Image alt="hkj"className={style.Modalmage}  src={Projefile} />
 
                 <p> 
-                 <b>Premium Paper Color Project file print upto 300gsm at paperPress.</b>
+                <h1 style={{fontSize:"25px", color:"white", backgroundColor:"#0e131a", textAlign:"center", borderRadius:"12px 12px 12px 12px", padding:"10px",fontWeight:"300"}}>
+                  Project File Design and Print
+                  <p style={{fontSize:"15px", textAlign:"justify", marginTop:"10px", padding:"10px",color:"white", fontWeight:"300"}}>After making the payment, our team will reach out to you. They will request the project file in PDF format. If you already have one, great! If not, no worries! We can design one for you. Once the design is ready, we will ensure it's of the highest quality. Finally, we'll deliver your school project file straight to your home. This way, you can focus on your studies while we take care of bringing your project to life.</p>
+                  </h1>
                 </p>
 
 <div className={style.statsu}>
@@ -108,19 +111,27 @@ const handleOpen = (size) => {
             <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Quality</th>
             <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Design</th>
             <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Page</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Size</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Price</th>
           </tr>
+          
         </thead>
         <tbody>
           <tr>
-            <td class="px-4 py-3">Page</td>
+            <td class="px-4 py-3">A4 Page</td>
             <td class="px-4 py-3">Color</td>
-            <td class="px-4 py-3">YES</td>
+            <td class="px-4 py-3">You or Designed By Professionals (Us)</td>
             <td class="px-4 py-3">100GSM</td>
-            <td class="px-4 py-3">A4</td>
+            <td class="px-4 py-3">₹7.1 Per Page</td>
 
           </tr>
-          
+          <tr>
+            <td class="px-4 py-3">Standard</td>
+            <td class="px-4 py-3">Best Quality</td>
+            <td class="px-4 py-3">Free</td>
+            <td class="px-4 py-3">Best</td>
+            <td class="px-4 py-3">Quality First</td>
+
+          </tr>
         </tbody>
       </table>
     </div>
@@ -128,77 +139,7 @@ const handleOpen = (size) => {
   </div>
 </section>
 
-<div className={style.status2}>
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
-    <div class="flex flex-wrap w-full">
-      <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-        <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <div class="flex-grow pl-4">
-            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Pay and Project Designing </h2>
-            <p class="leading-relaxed">After payment we will call you for project reference and draft, and we will work our creative magic.</p>
-          </div>
-        </div>
-        <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-          <div class="flex-grow pl-4">
-            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Print</h2>
-            <p class="leading-relaxed">Your Project will print  in vibrant colors at the highest quality.</p>
-          </div>
-        </div>
-        <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <circle cx="12" cy="5" r="3"></circle>
-              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-            </svg>
-          </div>
-          <div class="flex-grow pl-4">
-            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Fast Delivery</h2>
-            <p class="leading-relaxed">We partner with trusted couriers, providing a tracking number for your convenience.</p>
-          </div>
-        </div>
-        <div class="flex relative pb-12">
-          <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-          </div>
-          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <div class="flex-grow pl-4">
-            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Your Project Arrives</h2>
-            <p class="leading-relaxed">Receive your professionally printed project at your doorstep, ready to impress. At paperPress, we make school project printing simple and stress free 📚✨</p>
-          </div>
-        </div>
-
-      </div>
-   
-    </div>
-  </div>
-</section>
-          </div>
           <div className={style.divpay}>
             <h1>₹ 6 / Per Page Print &quot;We Will handle everything from design to print to delivery at doorstep.&quot;</h1>
                 
@@ -231,17 +172,7 @@ const handleOpen = (size) => {
 
 
 
-        <ReturnServices
-          src={Visiting}
-          quotation=" ₹2 Per Card"
-          title="Visiting Card"
-        />
 
-        <ReturnServices
-          src={Docpng}
-          quotation=" ₹0.5 Per Page"
-          title="Document / Paper Printing"
-        />
 
     
       </div>

@@ -23,7 +23,7 @@ qualstatus="tab"
 />
    <Section2/>
 
-   <Alert/>
+   {/* <Alert/> */}
 
 
 
