@@ -57,12 +57,12 @@ thirdlink="/About/refund"
       <TableBody>
         <TableRow key="1">
           <TableCell>Ayush Singh</TableCell>
-          <TableCell>Co-Founder & CEO</TableCell>
+          <TableCell>Co Founder & CEO</TableCell>
           <TableCell>Active</TableCell>
         </TableRow>
         <TableRow key="2">
           <TableCell>Utkarsh Verma</TableCell>
-          <TableCell>Co-Founder & CTO</TableCell>
+          <TableCell>Co Founder & CTO</TableCell>
           <TableCell>Active</TableCell>
         </TableRow>
         
@@ -95,12 +95,12 @@ School Project File Design and Print: Elevate your school projects with our dedi
 
 <p>Visiting Cards: Make a memorable first impression with our custom-designed visiting cards. Our printing quality ensures that your contact information stands out, leaving a lasting impact on potential clients and associates.</p>
 
-<p>Posters and Marketing Materials: Whether you're promoting an event, product, or service, our posters and marketing materials are crafted to captivate your audience. Let your message shine with paperPress.</p>
+<p>Posters and Marketing Materials: Whether you&apos;re promoting an event, product, or service, our posters and marketing materials are crafted to captivate your audience. Let your message shine with paperPress.</p>
 
 <h2>Why Choose PaperPress:</h2>
 <li>Quality Assurance: We believe in delivering nothing but the best. Our state-of-the-art printing technology guarantees sharp, vibrant, and professional results every time.</li>
 
-<li>Professional Designers: Our team of experienced designers is here to transform your ideas into visually stunning creations. From concept to completion, we've got you covered.</li>
+<li>Professional Designers: Our team of experienced designers is here to transform your ideas into visually stunning creations. From concept to completion, we&apos;ve got you covered.</li>
 
 <li>Customer-Centric Approach: Your satisfaction is our priority. We value your time, ideas, and feedback. Our customer support team is always ready to assist you throughout the process.</li>
 
