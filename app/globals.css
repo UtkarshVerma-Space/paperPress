@@ -14,15 +14,8 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    margin: 0;
+/* body {
+  background-image: url(https://img.freepik.com/premium-photo/illustration-hud-bar-graph-empty-with-screenbackground-diagrams-showing-chartsbusiness-digital-space-virtual-trend-conceptgraphic-progress-market-backdrop-your-text-information-data_599740-1386.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703548800&semt=ais);
 } */

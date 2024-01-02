@@ -4,155 +4,120 @@ import React from 'react'
 import Section1 from '../nextuicomponents/Sections/Section1/Section1'
 
 import Navbars from '../nextuicomponents/Navbar/Nav'
-export default function page() {
+
+import SubNav from '../Pricing/components/Nav'
+
+import style from "./abouts.module.css"
+
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
+
+
+
+export default function About() {
   return (
 <>
+
+
 <Navbars/>
 <Section1
-abtstatus="tab tab-active"
+abtstatus="tab "
 
 servicstatus="tab"
 
-qualstatus="tab"
+qualstatus="tab tab-active"
 />
 
 
-<div style={{marginTop:"100px"}}>
+<div className={style.main}>
+
+<h1 className={style.heading}>How We Work?</h1>
 
 
-      <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Pricing</h1>
-     
-    </div>
-    <div class="lg:w-2/3 w-full mx-auto overflow-auto">
-
-      
-    <h1 style={{fontSize:"25px", color:"white", backgroundColor:"#0e131a", textAlign:"center", borderRadius:"12px 12px 2px 2px", padding:"10px"}}>Normal Paper Print</h1>
-      <table class="table-auto w-full text-left whitespace-no-wrap">
-        <thead>
-          <tr>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Item</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Days</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Quality</th>
-          
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Info</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Price</th>
-          </tr>
-        </thead>
-        <tbody>
+<SubNav
+firstnav="Shipping"
+secondnav="Privacy"
+thirdnav="Refund"
+thirdlink="/About/refund"
+/>
 
 
-          <tr>
-            <td class="px-4 py-3">Black And White Print</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">75 GSM</td>
-            <td class="px-4 py-3">Double Side</td>
-            <td class="px-4 py-3 text-lg text-white">₹0.9</td>
-          </tr>
 
-          <tr>
-            <td class="px-4 py-3">Black And White Print</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">85 GSM (Premium)</td>
-            <td class="px-4 py-3">Double Side</td>
-            <td class="px-4 py-3 text-lg text-white">₹1.5</td>
-          </tr>
 
-          <tr>
-            <td class="px-4 py-3">Black And White Print</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">100 GSM (Gold)</td>
-            <td class="px-4 py-3">Double Side</td>
-            <td class="px-4 py-3 text-lg text-white">₹2</td>
-          </tr>
+<div style={{
+  margin:"70px 20px  20px 20px"
+}
+}>
 
-          <tr>
-            <td class="px-4 py-3">Black And White Print</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">100 GSM (Diamond)</td>
-            <td class="px-4 py-3">Double Side</td>
-            <td class="px-4 py-3 text-lg text-white">₹8.5</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-3">Black And White Print</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">170 GSM (Glossy or Matte)</td>
-            <td class="px-4 py-3">Double Side</td>
-            <td class="px-4 py-3 text-lg text-white">₹10</td>
-          </tr>
+<Table aria-label="Example static collection table">
+      <TableHeader>
+        <TableColumn>NAME</TableColumn>
+        <TableColumn>ROLE</TableColumn>
+        <TableColumn>STATUS</TableColumn>
+      </TableHeader>
+      <TableBody>
+        <TableRow key="1">
+          <TableCell>Ayush Singh</TableCell>
+          <TableCell>Co-Founder & CEO</TableCell>
+          <TableCell>Active</TableCell>
+        </TableRow>
+        <TableRow key="2">
+          <TableCell>Utkarsh Verma</TableCell>
+          <TableCell>Co-Founder & CTO</TableCell>
+          <TableCell>Active</TableCell>
+        </TableRow>
         
-        </tbody>
-      </table> 
+      </TableBody>
+    </Table>
+
+</div>
 
 
 
-{/* /* School Project file print */}
-
-  
-<h1 style={{fontSize:"25px", color:"white", backgroundColor:"#0e131a", textAlign:"center", borderRadius:"12px 12px 2px 2px", padding:"10px", marginTop:"100px"}}>School Project File Print</h1>
-      <table class="table-auto w-full text-left whitespace-no-wrap">
-        <thead>
-          <tr>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Item</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Days</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Quality</th>
-          
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Info</th>
-            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Price</th>
-          </tr>
-        </thead>
-        <tbody>
+</div>
 
 
-          <tr>
-            <td class="px-4 py-3">Front Page and Other Page</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">75 GSM COLOR</td>
-            <td class="px-4 py-3">Single Side Premium (Designed by professionals / Us)</td>
-            <td class="px-4 py-3 text-lg text-white">₹5</td>
-          </tr>
+<div className={style.wrapper}>
+<div className={style.container}>
 
-          <tr>
-            <td class="px-4 py-3">Full / Complete File</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">85 GSM (Premium)</td>
-            <td class="px-4 py-3">Single Side Premium (Designed by You)</td>
-            <td class="px-4 py-3 text-lg text-white">₹6</td>
-          </tr>
+{/* <h1>About Us</h1> */}
+<p>Welcome to paperPress, your premier destination for hassle free, high-quality print-on-demand services. We understand the importance of bringing your ideas to life, whether it&apos;s through custom school project files, eye-catching business cards, impactful posters, or effective marketing materials. At PaperPress, we&apos;re not just a printing service; we are your creative partner.</p>
 
-  
-          <tr>
-            <td class="px-4 py-3">Full / Complete File</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">85 GSM (Premium)</td>
-            <td class="px-4 py-3">Single Side Premium (Designed by professionals / Us)</td>
-            <td class="px-4 py-3 text-lg text-white">₹15</td>
-          </tr>
-    
+<h2>Our Services:</h2>
+<p>Print on Demand: Embrace the freedom of on-demand printing. Whether it is a personal project or a business requirement, we empower you to print only what you need when you need it. No more excess inventory or storage hassles.</p>
+
+<p>
+School Project File Design and Print: Elevate your school projects with our dedicated design and printing services. Our professional designers ensure that your project files are not just informative but visually appealing, leaving a lasting impression.  
+</p>
+
+
+<p>Home Delivery: Convenience is key. We take care of the entire process, from design to delivery. Sit back, relax, and let PaperPress bring your creations right to your doorstep.</p>
+
+
+<p>Visiting Cards: Make a memorable first impression with our custom-designed visiting cards. Our printing quality ensures that your contact information stands out, leaving a lasting impact on potential clients and associates.</p>
+
+<p>Posters and Marketing Materials: Whether you're promoting an event, product, or service, our posters and marketing materials are crafted to captivate your audience. Let your message shine with paperPress.</p>
+
+<h2>Why Choose PaperPress:</h2>
+<li>Quality Assurance: We believe in delivering nothing but the best. Our state-of-the-art printing technology guarantees sharp, vibrant, and professional results every time.</li>
+
+<li>Professional Designers: Our team of experienced designers is here to transform your ideas into visually stunning creations. From concept to completion, we've got you covered.</li>
+
+<li>Customer-Centric Approach: Your satisfaction is our priority. We value your time, ideas, and feedback. Our customer support team is always ready to assist you throughout the process.</li>
 
 
 
-          <tr>
-            <td class="px-4 py-3 text-lg text-white">Full / Complete File</td>
-            <td class="px-4 py-3">6 Days</td>
-            <td class="px-4 py-3">100 GSM (Diamond (Our best Quality Print))</td>
-            <td class="px-4 py-3">Single Side Premium (Designed by You)</td>
-            <td class="px-4 py-3 text-lg text-white">₹7.2</td>
-          </tr>
-    
-         
-        </tbody>
-      </table>
 
 
+<h2>Join the PaperPress family and experience the ease of online print-on-demand services like never before. Your vision, our expertise – together, we make it happen.</h2>
 
-    </div>
+<p>Have questions, feedback, or special requests? We&apos;re here for you. Feel free to reach out to our dedicated support team, who will assist you with any queries you may have.</p>
+<p>Thank you for choosing paperPress as your trusted educational partner. We look forward to supporting you on your academic journey.</p>
 
-  </div>
-</section>
-    </div>
+
+</div>
+</div>
+
+
 
 
 </>

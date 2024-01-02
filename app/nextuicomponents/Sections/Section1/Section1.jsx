@@ -12,9 +12,9 @@ export default function Section1(props) {
     <div id={style.tabs} role="tablist" className="tabs tabs-lifted">
 
     
-  <Link href="/about" role="tab" className={props.abtstatus}>Pricing</Link>
+  <Link href="/Pricing" role="tab" className={props.abtstatus}>Pricing</Link>
   <Link  href="/" role="tab" className={props.servicstatus}>Our Services</Link>
-  <Link  href="/about" role="tab" className={props.qualstatus}>Quality</Link>
+  <Link  href="/About" role="tab" className={props.qualstatus}>About</Link>
 </div>
 {/* Active : tab tab-active
 unactive :  tab  */}
