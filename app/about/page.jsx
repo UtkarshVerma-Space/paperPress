@@ -35,7 +35,7 @@ qualstatus="tab tab-active"
 
 <SubNav
 firstnav="Shipping"
-secondnav="Privacy"
+// secondnav="Privacy"
 thirdnav="Refund"
 thirdlink="/About/refund"
 />
@@ -57,15 +57,19 @@ thirdlink="/About/refund"
       <TableBody>
         <TableRow key="1">
           <TableCell>Ayush Singh</TableCell>
-          <TableCell>Co Founder & CEO</TableCell>
+          <TableCell>Co Founder</TableCell>
           <TableCell>Active</TableCell>
         </TableRow>
         <TableRow key="2">
           <TableCell>Utkarsh Verma</TableCell>
-          <TableCell>Co Founder & CTO</TableCell>
+          <TableCell>Co Fo. & CTO</TableCell>
           <TableCell>Active</TableCell>
         </TableRow>
-        
+        <TableRow key="3">
+          <TableCell>Hiring</TableCell>
+          <TableCell>Backend Developer</TableCell>
+          <TableCell>Active</TableCell>
+        </TableRow>
       </TableBody>
     </Table>
 

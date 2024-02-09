@@ -8,13 +8,6 @@ export default function Navbars() {
   const menuItems = [
     "Price Calculator",
     "Log Out",
-    // "PDF Print",
-    // "Notebook",
-    // "Marketing Materials ",
-    // "Stickers",
-    // "Pamphlet and Flyer",
-    // "Business Solution",
-    // "Log Out",
   ];
 
   return (
@@ -39,19 +32,13 @@ export default function Navbars() {
           <p className="font-bold text-inherit">paperPress</p>
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="#">
             Price Calculator
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Contact
-          </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+            Contact
+        </NavbarItem>
+        <NavbarItem>
             About
-          </Link>
         </NavbarItem>
       </NavbarContent>
 
